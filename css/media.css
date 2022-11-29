@@ -1,0 +1,67 @@
+@media (max-width:9120px) {
+   .nature2{
+      display: none !important;
+   }
+}
+
+@media (max-width:1120px) {
+
+   .container{
+      padding: 0 24px;
+   }
+   .wrap-center h1{
+      font-size: calc(36px + (96 - 36) * ((100vw - 428px) / (1150 - 428))) !important;
+   }
+   .container-info{
+      font-size: calc(13px + (14 - 13) * ((100vw - 428) / (1150 - 428))) !important;
+   }
+   
+}
+
+@media (max-width:950px){
+   .box{
+      grid-template-columns: repeat(2,1fr);
+   }
+}
+
+@media (max-width: 900px) {
+   .box{
+      grid-template-columns: repeat(2,1fr) !important;
+   }
+}
+
+@media (max-width:600px) {
+   .nature2{
+      display: block !important;
+   }
+   .photo{
+      display: none !important;
+   }
+   .wrap-top-right {
+     display: none !important;
+   }
+   .hamburger-menu{
+      display: block !important;
+   }
+   .burger-menu{
+      display: block !important  ;
+   }
+   .box{
+      grid-template-columns: repeat(1,1fr) !important;
+      
+   }
+   .type-of-excursions{
+      grid-template-columns: repeat(1,1fr) !important;
+      grid-gap: 40px;
+      justify-content: center;
+   }
+}
+
+@media (max-width:500px){
+   .container-top a{
+      display: none;
+   }
+   .container-info{
+      padding: 43px !important;
+   }
+}
